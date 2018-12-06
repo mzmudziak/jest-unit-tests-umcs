@@ -1,6 +1,6 @@
 # jest-unit-tests-umcs
 
-h2. How to run tests?
+## How to run tests?
 
 Install jest globally:
 ```
@@ -13,7 +13,7 @@ jest --coverage
 ```
 
 
-h2. Example report:
+## Example report:
 
 ```
 > unit-tests@1.0.0 test /Users/michal/git/umcs/wtwo/unit-tests
