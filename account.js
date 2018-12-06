@@ -10,7 +10,8 @@ export default class Account {
     let maxDebit = this.vip ? (this.balance < 0 ? -1000 : -2000) : -100;
     maxDebit = this.company ? maxDebit - 2000 : maxDebit;
     if (amount > this.balance - (this.debit + maxDebit)) {
-      return { balance: this.balance, amount: 0 }    }
+      return { balance: this.balance, amount: 0 };
+    }
     this.balance = this.balance - amount;
     return { balance: this.balance, amount };
   }
