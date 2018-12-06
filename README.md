@@ -1,5 +1,12 @@
 # jest-unit-tests-umcs
 
+
+## Prerequisites
+
+1. Install NodeJS - https://nodejs.org/en/download/
+2. Clone the repository
+3. Run `npm install`
+
 ## How to run tests?
 
 Install jest globally:
